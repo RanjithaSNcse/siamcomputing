@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <mete name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Color Picker</title>   
+
+    </head>
+    <body>
+        <div class="row">
+            <div id="header_Btn" class="menu-bgc grid "> Heading </div> 
+            <div id="slider_Btn" class="grid grid-h center-grid"> Sidebar </div>
+            <div id="body_Btn" class="grid grid-h"> Main body </div>
+        </div>
+
+    <div class="visible" id="header">
+        <div class="row">
+            <div class="grid"> 
+                <input type="color" id="color1" value="#ff0000"> Background color
+            </div> 
+            <div class="grid center-grid"> 
+                <input type="color" id="color" value="#ffffff"> Your name
+            </div> 
+            <div class="grid"> 
+                <input type="color" id="color5" value="#ffffff"> Contact button color
+            </div> 
+        </div>
+        <div class="row">
+            <div class="grid"> 
+                <input type="color" id="color3" value="#ffffff"> Menu text color
+            </div> 
+            <div class="grid center-grid"> 
+                <input type="color" id="color2" value="#ffffff"> Designation
+            </div> 
+            <div class="grid"> 
+                <input type="color" id="color4" value="#ff0000"> Contact button text color
+            </div> 
+        </div>
+    </div> 
+    <div class="hidden" id="slider">
+        <div class="row">
+            <div class="grid"> 
+                <input type="color" id="" value="#ff0000"> Get in Touch button color
+            </div>
+			<div class="grid center-grid"> 
+                <input type="color" id="" value="#ffffff"> Web site button color
+            </div>
+			<div class="grid"> 
+                <input type="color" id="" value="#000000"> Phone # color
+            </div>
+        </div>
+        <div class="row">
+            <div class="grid"> 
+                <input type="color" id="" value="#ffffff"> Get in Touch text color
+            </div> 
+			<div class="grid center-grid"> 
+                <input type="color" id="" value="#ff0000"> Web site button text color
+            </div>
+			<div class="grid"> 
+                <input type="color" id="" value="#ffc0cb"> Slider bar color
+            </div>
+        </div>
+    </div>
+    <div class="hidden" id="body">
+        <div class="row">
+            <div class="grid"> 
+                <input type="color" id="" value="#ffc0cb"> Profile background color
+            </div> 
+			<div class="grid center-grid"> 
+                <input type="color" id="" value="#ff0000"> Profile button color
+            </div>
+			<div class="grid"> 
+                <input type="color" id="" value="#bbc64e"> Hyperlink color
+            </div>
+        </div>
+		<div class="row">
+            <div class="grid"> 
+                <input type="color" id="" value="#ff0000"> Profile text color
+            </div> 
+			<div class="grid center-grid"> 
+                <input type="color" id="" value="#ffffff"> Profile button text
+            </div>
+			<div class="grid "> 
+            </div>
+        </div>
+    </div>  
+
+        <div class="row bg-red" id="hbody">
+            <div class="grid p20">
+                <img src="profile.png" width="15%">
+                <p class="user-p text-white"><span class="user-name" id="usern" >Your Name</span> <br> <span id="userd">UI DEVELOPER</span></p>
+            </div>
+            <div class="grid center-grid"> </div>
+            <div class="grid"> 
+			<div class="">
+                <button id="button" class="button-c" type="button"><a id="but">Contact me</a></button> &nbsp; 
+                &nbsp; <a class="text-white" id="menuid"> Home  &nbsp;
+                &nbsp;  Get in Touch </a>
+				</div>
+            </div>    
+        </div>
+         
+        <!-- <div style="text-align: center;">
+            <input type="text" id="hex">
+            <input type="color" id="color">
+            <h1>Color Picker</h1>
+        </div>
+          -->
+        <script src="script.js"></script>
+    </body>
+</html>
